@@ -1,9 +1,9 @@
 <html manifest="cache.manifest">
 <head>
-<title>OGB V3</title>
+<title>OGB V4</title>
 <script>
-function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Downloading Cache: " + Percent + "%";}
-function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Installing Cache";},1000);setTimeout(function(){window.msgs.innerHTML="Offline Cache Installed✔ - Press Home Button";},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Mengumpulkan Data Harap Menunggu: " + Percent + "%";}
+function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Memasang Data";},1000);setTimeout(function(){window.msgs.innerHTML="Offline Data Terpasang✔ - Keluar dan Matikan Internet";},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
 </script>
 
 
