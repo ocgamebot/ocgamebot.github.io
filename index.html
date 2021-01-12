@@ -1,0 +1,101 @@
+<html manifest="cache.manifest">
+<head>
+<title>OGB V3</title>
+<script>
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Downloading Cache: " + Percent + "%";}
+function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Installing Cache";},1000);setTimeout(function(){window.msgs.innerHTML="Offline Cache Installed✔ - Press Home Button";},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+</script>
+
+
+</head>
+<body style="background-image:url(bg1.png)">
+<h1 id=msgs style='font-size:40px;text-align:center;'>HANYA UNTUK FIRMWARE 7.02</h1>
+
+<center>
+<button onclick="load_hen(); return false">HEN v2.1.3</button>
+<button onclick="load_hentodex(); return false">HEN+Todex</button>
+<button onclick="load_mirahen(); return false">Mira+Hen</button>
+<button onclick="load_mira(); return false">Mira</button>
+<button onclick="load_miraBeta(); return false">Mira-Beta</button>
+
+   <br><br><br><br>
+<h1 style="font-size:30px;text-align:center;">Payloads</h1>
+    <a href="exploits/BinLoader/index.html">
+       <button>BinLoader(Chendochap)</button>
+ 
+   </a>
+<button onclick="load_app2usb(); return false">App2USB</button>
+<button onclick="load_backup(); return false">Backup Database</button>
+<button onclick="load_restore(); return false">Restore Database</button>
+<button onclick="load_ftp(); return false">FTP</button>
+<button onclick="load_reactps(); return false">ReactPS+</button>
+<button onclick="load_vr(); return false">Enable VR</button>
+<button onclick="load_kernelclock(); return false">Kernel Clock</button>
+<button onclick="load_spoofer(); return false">Spoof 8.03</button>
+<br><br>
+<button onclick="load_linux1(); return false">Linux 1GB VRAM</button>
+<button onclick="load_linux3(); return false">Linux 3GB VRAM</button>
+<button onclick="load_dumper(); return false">Dumper</button>
+<button onclick="load_enableupdate(); return false">Enable Update</button>
+<button onclick="load_disableupdate(); return false">Disable Update</button>
+<button onclick="load_historyblocker(); return false">History Blocker</button>
+<button onclick="load_todex(); return false">ToDex</button>
+   <a href="exploits/WebRTE/index.html">
+       <button>WebRTE</button>
+  </a>
+   <a href="exploits/PS4Debug/index.html">
+       <button>PS4Debug</button>
+  </a>
+
+  <br><br>
+<button onclick="load_fantreshold(); return false">Set Fan Treshold</button>
+   <select id="tempC"></select>°C
+<br>
+   The PS4's default temp is 79°C
+<script>
+for(var i=40; i<=79; i++){
+    var select = document.getElementById("tempC");
+    var option = document.createElement("OPTION");
+	select.options.add(option);
+	option.text = i;
+	option.value = i;
+}
+tempC.value=60;
+</script>
+<br><br><br>
+   <h1>if you have CE-30391-6 error use this payload</h1>
+<button onclick="load_fix(); return false">CE-30391-6 Fix</button>
+
+<div style="position:fixed;left:0;bottom:-8px;width:100%;font-size:16px;">
+<hr><a href="credits.html"></a></span><hr>
+</div>
+  
+</center>
+<script>
+function load_hen(){window.location.replace("jb.html#f=exploits/pl_HEN.js");}
+function load_hentodex(){window.location.replace("jb.html#f=exploits/pl_HEN+.js");}
+function load_mirahen(){window.location.replace("jb.html#f=exploits/pl_MiraHen.js");}
+function load_mira(){window.location.replace("jb.html#f=exploits/pl_Mira.js");}
+function load_app2usb(){window.location.replace("jb.html#f=exploits/pl_App2USB.js");}
+function load_backup(){window.location.replace("jb.html#f=exploits/pl_Backup.js");}
+function load_restore(){window.location.replace("jb.html#f=exploits/pl_Restore.js");}
+function load_ftp(){window.location.replace("jb.html#f=exploits/pl_FTP.js");}
+function load_reactps(){window.location.replace("jb.html#f=exploits/pl_ReactPS+.js");}
+function load_vr(){window.location.replace("jb.html#f=exploits/pl_VR.js");}
+function load_kernelclock(){window.location.replace("jb.html#f=exploits/pl_Kernel-Clock.js");}
+function load_spoofer(){window.location.replace("jb.html#f=exploits/pl_Spoofer.js");}
+function load_linux1(){window.location.replace("jb.html#f=exploits/pl_Linux1.js");}
+function load_linux3(){window.location.replace("jb.html#f=exploits/pl_Linux3.js");}
+function load_dumper(){window.location.replace("jb.html#f=exploits/pl_Dumper.js");}
+function load_enableupdate(){window.location.replace("jb.html#f=exploits/pl_Enable-Updates.js");}
+function load_disableupdate(){window.location.replace("jb.html#f=exploits/pl_Disable-Updates.js");}
+function load_historyblocker(){window.location.replace("jb.html#f=exploits/pl_History-Blocker.js");}
+function load_todex(){window.location.replace("jb.html#f=exploits/pl_todex.js");}
+function load_fantreshold(){window.location.replace("jb.html#f=exploits/pl_FanTreshold.js");}
+function load_fix(){window.location.replace("jb.html#f=exploits/pl_ce-30391-6_fix.js");}
+</script>
+</script>
+
+
+</body>
+<html>
