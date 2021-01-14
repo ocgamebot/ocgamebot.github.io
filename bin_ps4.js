@@ -122,7 +122,7 @@ function setupRW() {
 		die("[!] Failed to setup addrof/fakeobj primitives");
 	debug_log("[+] Succesfully got addrof/fakeobj");
 	debug_log("-------------------------------------------------------------");
-	debug_log("F  I  M    D  O    W  E  B  K  I  T");
+	debug_log("S E L E S A I");
 	debug_log("-------------------------------------------------------------");
 
 	/* Getting code execution */
