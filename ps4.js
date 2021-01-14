@@ -118,10 +118,10 @@ function setupRW() {
 		die("[!] Failed to setup addrof/fakeobj primitives");
 	debug_log("[+] Succesfully got addrof/fakeobj");
 	debug_log("-------------------------------------------------------------");
-	debug_log("FIM DO WEBKIT");
+	debug_log("SELESAI");
 	debug_log("-------------------------------------------------------------");
 	debug_log(" ");
-	debug_log("Aguardando o payload ser carregado...");
+	debug_log("Menunggu Payload Dimuat...");
 
 	/* Getting code execution */
 	/* ... */
@@ -419,7 +419,7 @@ function prepareUAF() {
 /* HTMLElement spray */
 function sprayHTMLTextArea() {
 	debug_log("-------------------------------------------------------------");
-	debug_log("INICIADO O WEBKIT");
+	debug_log("OGB : JAILBREAK AKAN SEGERA DIMULAI. MOHON UNTUK MENUNGGU");
 	debug_log("-------------------------------------------------------------");
 
 	let textarea_div_elem = document.createElement("div");
