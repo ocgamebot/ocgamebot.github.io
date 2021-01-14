@@ -122,10 +122,10 @@ function setupRW() {
 		die("[!] Failed to setup addrof/fakeobj primitives");
 	debug_log("[+] Succesfully got addrof/fakeobj");
 	debug_log("-------------------------------------------------------------");
-	debug_log("FIM DO WEBKIT");
+	debug_log("SELESAI");
 	debug_log("-------------------------------------------------------------");
 	debug_log(" ");
-	debug_log("WebRTE sendo carregado...");
+	debug_log("WebRTE Sedang Dimuat sabar ya orang lemah hihihi...");
 
 
 	/* Getting code execution */
@@ -482,7 +482,7 @@ function prepareUAF() {
 /* HTMLElement spray */
 function sprayHTMLTextArea() {
 	debug_log("-------------------------------------------------------------");
-	debug_log("INICIADO O WEBKIT");
+	debug_log("OGB : SELAMAT DATANG DI webRTE TEMPATNYA ORANG ORANG LEMAH :P . . . ! ! MOHON UNTUK MENUNGGU :)");
 	debug_log("-------------------------------------------------------------");
 
 	let textarea_div_elem = document.createElement("div");
