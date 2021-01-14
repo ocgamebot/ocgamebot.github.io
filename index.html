@@ -222,9 +222,9 @@ document.getElementById("auto").checked = checkStatus;
 localStorage.setItem('auto', checkStatus);
 
 if(checkStatus){
-document.getElementById("msgs").innerHTML = "otomatis HEN <font color=\"#FFD700\">ON</font> buka kunci akan <font color=\"#FFD700\">OTOMATIS</font> saat anda masuk browser.";}
+document.getElementById("msgs").innerHTML = "otomatis HEN <font color=\"#FFD700\">ON</font> buka kunci akan <font color=\"#FFD700\">OTOMATIS</font> saat memasuki browser.";}
 else{
-document.getElementById("msgs").innerHTML = "Auto HEN <font color=\"#FFD700\">DESATIVADO.</font> O desbloqueio será <font color=\"#FFD700\">MANUAL</font> quando entrar no navegador.";}
+document.getElementById("msgs").innerHTML = "otomatis HEN <font color=\"#FFD700\">off.</font> buka kunci akan secara <font color=\"#FFD700\">MANUAL</font> saat memasuki browser.";}
 }
 
 var checkStatusStorage = localStorage.getItem("auto");
