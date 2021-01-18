@@ -470,7 +470,7 @@ function sprayHTMLTextArea() {
 	debug_log("TUNGUIN YA JANGAN KEMANA-MANA. ABANGNYA LAGI JEMURIN SEMPAK :P");
 	debug_log("---------------------------------------------------------------------");
 	debug_log("");
-	debug_log("[+] Pulverizando elemento de área de texto HTML ...");
+	debug_log("[+] DILARANG MEMENCET TOMBOL APAPUN DI AREA TEXT HTML ...");
 	debug_log("");
 
 	let textarea_div_elem = document.createElement("div");
