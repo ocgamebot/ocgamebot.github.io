@@ -114,16 +114,16 @@ function setupRW() {
 	if(!read64(g_jsview_butterfly.sub(16)).equals(new Int64("0xffff000000001337")))
 		die("[!] Failed to setup addrof/fakeobj primitives");
 	debug_log("---------------------------------------------------------------------");
-	debug_log("FIM DO WEBKIT");
+	debug_log("OGB : JAILBREAK SEDANG BERLANGSUNG");
 	debug_log("---------------------------------------------------------------------");
 	debug_log("");
-	debug_log("P R O N T O ! ! !");
-	debug_log("Aguarde a ativação da carga útil.");
+	debug_log("SELESAI . . ! ! !");
+	debug_log("TUNGGU HINGGA PAYLOAD DIAKTIFKAN");
 	debug_log("");
-	debug_log("ATENÇÃO PARA NÃO PERDER A CACHE OFFLINE!!!");
-	debug_log("Para \"SAIR\", pressione o botão \"OPTION\", selecione \"Fechar janela\",");
-	debug_log("\"OK\" na mensagem de memória insuficente, selecione a \"JANELA PRINCIPAL\".");
-	debug_log("e, por fim, saia do navegador usando o \"CÍRCULO\".");
+	debug_log("UNTUK TIDAK KEHILANGAN CACHE OFFLINE!!!");
+	debug_log("UNTUK \"KELUAR\", tekan tombol \"OPTION\", pilih \"tutup jendela\",");
+	debug_log("\"OK\" di pesan out of memory, pilih \"MAIN WINDOW\".");
+	debug_log("Dan terakhir, keluar dari browser tekan\"BULAT\".");
 
 	/* Getting code execution */
 	/* ... */
@@ -467,7 +467,7 @@ function prepareUAF() {
 /* HTMLElement spray */
 function sprayHTMLTextArea() {
 	debug_log("---------------------------------------------------------------------");
-	debug_log("INICIANDO O WEBKIT...");
+	debug_log("TUNGUIN YA JANGAN KEMANA-MANA. ABANGNYA LAGI JEMURIN SEMPAK :P");
 	debug_log("---------------------------------------------------------------------");
 	debug_log("");
 	debug_log("[+] Pulverizando elemento de área de texto HTML ...");
