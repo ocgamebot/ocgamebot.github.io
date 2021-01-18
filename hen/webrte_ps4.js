@@ -114,16 +114,16 @@ function setupRW() {
 	if(!read64(g_jsview_butterfly.sub(16)).equals(new Int64("0xffff000000001337")))
 		die("[!] Failed to setup addrof/fakeobj primitives");
 	debug_log("---------------------------------------------------------------------");
-	debug_log("FIM DO WEBKIT");
+	debug_log("JAILBREAK SELISAI DI MUAT");
 	debug_log("---------------------------------------------------------------------");
 	debug_log("");
-	debug_log("P R O N T O ! ! !");
-	debug_log("Aguarde a ativação da carga útil.");
+	debug_log("SELAMAT KAMU BERHASIL MENJAILBREAK PS4");
+	debug_log("Tunggu hingga payload diaktifkan.");
 	debug_log("");
-	debug_log("ATENÇÃO PARA NÃO PERDER A CACHE OFFLINE!!!");
-	debug_log("Para \"SAIR\", pressione o botão \"OPTION\", selecione \"Fechar janela\",");
-	debug_log("\"OK\" na mensagem de memória insuficente, selecione a \"JANELA PRINCIPAL\".");
-	debug_log("e, por fim, saia do navegador usando o \"CÍRCULO\".");
+	debug_log("AGAR TIDAK KEHILANGAN CACHE OFFLINE!!!");
+	debug_log("Untuk \ "EXIT \", tekan tombol \ "OPTION \", pilih \ "Tutup jendela\",");
+	debug_log("\"OK \ "di pesan out of memory, pilih \" MAIN WINDOW\".");
+	debug_log("dan terakhir, keluar dari browser menggunakan \ "HOME\".");
 
 	/* Getting code execution */
 	/* ... */
@@ -467,10 +467,10 @@ function prepareUAF() {
 /* HTMLElement spray */
 function sprayHTMLTextArea() {
 	debug_log("---------------------------------------------------------------------");
-	debug_log("INICIANDO O WEBKIT...");
+	debug_log("OGB : SEDANG MELAKUKAN JAILBREAK DI HARAP UNTUK MENUNGGU");
 	debug_log("---------------------------------------------------------------------");
 	debug_log("");
-	debug_log("[+] Pulverizando elemento de área de texto HTML ...");
+	debug_log("[+] jangan lupa pakai masker . . . ! ! !");
 	debug_log("");
 
 	let textarea_div_elem = document.createElement("div");
