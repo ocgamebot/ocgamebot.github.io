@@ -1,6 +1,6 @@
 <html manifest="cache.manifest">
 <head>
-<title>HEN V.8 @OCHIT</title>
+<title>HEN V.10 @OCHIT</title>
 <style>
 body{
 color: white;
@@ -52,14 +52,14 @@ background-color: transparent;
 <body onload="retornando(); pegarCheck(); statusCache(); invisivel();" style="text-align:center">
 <div class="invisivel">
 <br>
-<h1 style='font-size:27px;text-align:center;'><u><font color="#00FFFF">OGB HEN V.8</font></u><br>
+<h1 style='font-size:27px;text-align:center;'><u><font color="#00FFFF">OGB HEN V.10</font></u><br>
 </font>
 </h1>
 </div>
 <div class="invisivel">
 <button id="hen1" class="button" onmouseover="dicas2('hen213')" onMouseOut="fora()"  onclick="load_exploit_HENA(); return false"><font size="4" color="#FF00FF">HEN A</font></button> 
 <button id="hen1b" class="button" onmouseover="dicas2('hen213b')" onMouseOut="fora()"  onclick="load_exploit_HENB(); return false"><font size="4" color="#FF00FF">HEN B</font></button> 
-<button id="hen2" class="button" onmouseover="dicas2('mira')" onMouseOut="fora()"  onclick="load_exploit_mira2(); return false"><font size="4" color="#00FFFF">Mira</font></button>
+<button id="hen2" class="button" onmouseover="dicas2('mira')" onMouseOut="fora()"  onclick="load_exploit_mira2(); return false"><font size="4" color="#00FFFF">HEN C</font></button>
 <button id="hen3" class="button" onmouseover="dicas2('miraMais2')" onMouseOut="fora()"  onclick="load_exploit_miraMais2(); return false"><font size="4" color="#00FFFF">Mira+ v2</font></button> 
 
 </div>
@@ -149,7 +149,7 @@ case 'demora':document.getElementById("msgs").innerHTML = "Demorando muito para 
 case '6':document.getElementById("msgs").innerHTML = "Klik untuk melihat Host lainnya";break;
 case 'hen213':document.getElementById("msgs").innerHTML = "<font style='color:#00FFFF;'>Jika sampai 5X tidak SUKSES harap keluar dan masuk kembali ke BROWSER";break;
 case 'hen213b':document.getElementById("msgs").innerHTML = "<font style='color:#00FFFF;'>Jika sampai 10X tidak SUKSES harap keluar dan masuk kembali ke BROWSER (fix restmode)";break;
-case 'mira':document.getElementById("msgs").innerHTML = "<font style='color:#00FFFF;'>Jailbreak + Mira";break;
+case 'mira':document.getElementById("msgs").innerHTML = "<font style='color:#00FFFF;'>HEN + SPOOF 8.03 + support restmode";break;
 case 'light':document.getElementById("msgs").innerHTML = "Link (<font style='color:#00FFFF;'>acesse pelo pc</font>) para o DOWNLOAD desse Host para o <font style='color:#00FFFF;'>ESP8266</font> (100% OFF).<br> Dados: Rede (<font style='color:#00FFFF;'>ps4macedo</font>), senha (<font style='color:#00FFFF;'>macedo702</font>), DNS (<font style='color:#00FFFF;'>11.11.11.11</font>) e configuração (<font style='color:#00FFFF;'>11.11.11.11/settings</font>).";break;
 case 'miraMais':document.getElementById("msgs").innerHTML = "Ativasi <font style='color:#00FFFF;'>Jailbreak + Mira + ToDex + Spoof fw8.03 + PSVR + Fixs </font>(lebih stabil).";break;
 case 'miraMais2':document.getElementById("msgs").innerHTML = "<font style='color:#00FFFF;'>Jailbreak + Mira + ToDex + Spoof fw8.03 + PSVR + Fixs </font>V2";break;
@@ -263,7 +263,7 @@ function retornando(){
 //COMEÇA AQUI OS PAYLOADS
 function load_exploit_HENA(){window.location.replace("payload.html#f=A.js");}
 function load_exploit_HENB(){window.location.replace("hen/hen.html");}
-function load_exploit_mira2(){window.location.replace("payload.html#f=mira2.js");}
+function load_exploit_mira2(){window.location.replace("payload702.html#f=henSP7.js");}
 function load_exploit_miraMais2(){window.location.replace("payload.html#f=miraMais2.js");}
 function load_dumper(){window.location.replace("payload.html#f=dumper.js");}
 function load_updatesdisable(){window.location.replace("payload.html#f=disableUpd.js");}
