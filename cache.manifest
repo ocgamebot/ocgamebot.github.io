@@ -67,7 +67,6 @@ webrte_ps4.js
 webrte_rop.js
 webrte_userland.js
 webrte_utils.js
-
 v1/exploit.js
 v1/index.html
 v1/payload702.html
@@ -97,5 +96,3 @@ v1/PAYLOADS\premodsp.js
 v1/PAYLOADS\preori.js
 v1/PAYLOADS\ps4debug.js
 v1/PAYLOADS\ps4henvtx-702.js
-v1/cache.manifest.bat
-v1/offlineCache702.manifest
