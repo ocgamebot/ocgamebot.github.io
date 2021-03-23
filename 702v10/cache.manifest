@@ -75,3 +75,5 @@ goldhen/ps4.js
 goldhen/rop.js
 goldhen/userland.js
 goldhen/utils.js
+goldhen/spoof.html
+goldhen/spoof.js
