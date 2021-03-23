@@ -67,8 +67,11 @@ webrte_ps4.js
 webrte_rop.js
 webrte_userland.js
 webrte_utils.js
-exploit.js
-HEN1.html
-HEN.js
-PAYLOADS/premodsp.js
-HEN.html
+702/goldhen/bg1.jpg
+702/goldhen/goldhen.html
+702/goldhen/goldhen.js
+702/goldhen/int64.js
+702/goldhen/ps4.js
+702/goldhen/rop.js
+702/goldhen/userland.js
+702/goldhen/utils.js
